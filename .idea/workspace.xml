@@ -39,6 +39,44 @@
       <recent name="$PROJECT_DIR$/models" />
     </key>
   </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3000/adduser" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;nombre&quot;: &quot;Carlos Ivan&quot;,&#10;  &quot;apellido&quot;: &quot;Rivera P&quot;,&#10;  &quot;edad&quot;: &quot;29&quot;,&#10;  &quot;carrera&quot;: &quot;Ing Sistemas&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3000/adduser" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;user&quot;: {&#10;    &quot;nombre&quot;: &quot;&quot;,&#10;    &quot;apellido&quot;: &quot;&quot;,&#10;    &quot;edad&quot;: &quot;&quot;,&#10;    &quot;carrera&quot;: &quot;&quot;&#10;  }&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
   <component name="RunManager" selected="HTTP Request.http-requests-log#4">
     <configuration name="http-requests-log#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" runType="Run single request">
       <method v="2" />

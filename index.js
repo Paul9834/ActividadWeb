@@ -22,5 +22,11 @@ appServer.post ('/adduser' , (req, res)=>{
     res.send ('POST USER ADDED');
 });
 
+appServer.post ('/updateuser/:idUser' , (req, res)=>{
+    console.log(req.body);
+    console.log ( req.params.idUser);
+    res.send ('USER UPDATED');
+});
+
 
 
